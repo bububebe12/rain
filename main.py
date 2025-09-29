@@ -97,7 +97,7 @@ class SettingsWindow(QDialog):
         count_label = QLabel("Count of drops:")
         self.count_of_drops_changer_box = QSpinBox(self)
         self.count_of_drops_changer_slider = QSlider(Qt.Orientation.Horizontal, self)
-        speed_label = QLabel("Speed:")
+        speed_label = QLabel("Speed (reversed):")
         self.timer_speed_changer_box = QSpinBox(self)
         self.timer_speed_changer_slider = QSlider(Qt.Orientation.Horizontal, self)
         angle_label = QLabel("Angle:")
